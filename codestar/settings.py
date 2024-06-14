@@ -32,7 +32,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
-    ".herokuapp.com"
+    ".herokuapp.com",
+    "http://localhost:8000/home"
 ]
 
 
@@ -94,7 +95,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
+    "https://*.8000-https://django-blog-huss-76c7a3bbf204.herokuapp.com/",
     "https://*.herokuapp.com"
 ]
 
