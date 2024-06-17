@@ -28,12 +28,14 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "localhost",
     ".herokuapp.com",
     "http://localhost:8000/home"
+    "https://8000-https://django-blog-huss-76c7a3bbf204.herokuapp.com/",
+    ".herokuapp.com"
 ]
 
 
@@ -95,7 +97,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.8000-https://django-blog-huss-76c7a3bbf204.herokuapp.com/",
+    "https://8000-https://django-blog-huss-76c7a3bbf204.herokuapp.com/",
     "https://*.herokuapp.com"
 ]
 
