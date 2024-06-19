@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     "localhost",
     ".herokuapp.com",
     "http://localhost:8000/home"
+    "http://localhost:8000/about"
     "https://8000-https://django-blog-huss-76c7a3bbf204.herokuapp.com/",
     ".herokuapp.com"
 ]
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote',
     'blog',
+    'about',
 ]
 
 MIDDLEWARE = [
