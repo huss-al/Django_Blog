@@ -3,8 +3,10 @@ from django.db import models
 # Create your models here.
 class AboutPage(models.Model):
     title = models.CharField(max_length=200)
-    content = models.TextField()
     updated_on = models.DateTimeField(auto_now=True)
+    content = models.TextField()
+
 
     def __str__(self):
-        return f"{self.title} {self.content} {self.updated_on}"
+        return {self.title}
+    
